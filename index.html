@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Encriptador de texto</title>
+  </head>
+  <body>
+    <main class="main_container">
+      <div class="main_container__logo">
+        <img src="./img/Logo-1.png" alt="logo" />
+      </div>
+      <div class="main_container__input">
+        <textarea
+          placeholder="Ingrese texto aquí"
+          id="input_message"
+        ></textarea>
+        <div class="main_container__input__buttons">
+          <button
+            class="main_container__input__buttons--encode"
+            id="encode-button"
+          >
+            Encriptar
+          </button>
+          <button
+            class="main_container__input__buttons--decode"
+            id="decode-button"
+          >
+            Desencriptar
+          </button>
+        </div>
+      </div>
+      <div class="main_container__output">
+        <img src="./img/Muneco.png" alt="character" />
+        <textarea
+          class="main_container__output__message-encripted"
+          id="output_message"
+        >
+        </textarea>
+        <button class="main_container__output__button-copy" id="copy-button">
+          Copiar
+        </button>
+      </div>
+    </main>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
